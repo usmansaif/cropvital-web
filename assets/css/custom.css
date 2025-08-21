@@ -438,9 +438,69 @@
     }
 }
 
-/* Very small screens */
+/* Tablet screens (up to 1024px) */
+@media (max-width: 1024px) {
+    .main_title {
+        font-size: 1.125rem; /* ~18px */
+    }
+
+    .btn.btn--green {
+        font-size: 0.95rem;
+        padding: 0.5rem 1rem;
+    }
+
+    .main_rating-stars i {
+        font-size: 0.95rem;
+    }
+}
+
+/* Mobile landscape & small tablets (up to 768px) */
+@media (max-width: 768px) {
+    .main_title {
+        font-size: 1rem !important;; /* ~16px */
+    }
+
+    .btn.btn--green {
+        font-size: 0.9rem !important;;
+        padding: 0.45rem 0.9rem;
+    }
+
+    .main_rating-stars i {
+        font-size: 0.85rem !important;;
+    }
+}
+
+/* Mobile portrait (up to 480px) */
 @media (max-width: 480px) {
+    .main_title {
+        font-size: 0.9rem !important; /* ~14px */
+    }
+
+    .btn.btn--green {
+        font-size: 0.85rem;
+        padding: 0.4rem 0.8rem;
+    }
+
+    .main_rating-stars i {
+        font-size: 0.75rem;
+    }
+
+    a.link.d-inline-flex.align-items-center {
+        font-size: 16px;
+    }
+
+    .footer_secondary-copyright {
+        font-size: 14px;
+    }
     .products_list {
         grid-template-columns: 1fr;
     }
+
+    a.nav-link.d-inline-flex.align-items-center {
+        display: block;
+        width: 100%;
+        padding: 10px;
+        border-bottom: 1px solid #c4c4c4;
+    }
+
 }
