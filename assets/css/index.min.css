@@ -206,7 +206,7 @@ input[type=number]::-webkit-inner-spin-button, input[type=number]::-webkit-outer
 }
 
 .accent {
-    color: #efc368
+    color: #ffc107;
 }
 
 .secondary {
@@ -494,7 +494,9 @@ a[href^="http://maps.google.com/maps"], a[href^="https://maps.google.com/maps"] 
 }
 
 .header_logo span:not(.logo) {
-    display: none
+    margin-left: 5px;
+    margin-top: 5px;
+    font-size: 35px;
 }
 
 .header_nav {
@@ -539,7 +541,7 @@ a[href^="http://maps.google.com/maps"], a[href^="https://maps.google.com/maps"] 
 }
 
 .header_nav .dropdown-toggle {
-    margin-bottom: 20px
+    margin-bottom: 20px;
 }
 
 .header_nav .dropdown-toggle .icon {
@@ -570,7 +572,7 @@ a[href^="http://maps.google.com/maps"], a[href^="https://maps.google.com/maps"] 
 
 .header_user-action {
     border-radius: 50%;
-    background: #efc368;
+    background: #f8f9fa;
     color: #214842;
     width: 40px;
     height: 40px;
@@ -964,6 +966,10 @@ a[href^="http://maps.google.com/maps"], a[href^="https://maps.google.com/maps"] 
         text-align: left
     }
 
+    .header_logo .accent {
+        color: #214842
+    }
+
     .hero-pagination {
         position: absolute;
         right: 0;
@@ -1005,6 +1011,10 @@ a[href^="http://maps.google.com/maps"], a[href^="https://maps.google.com/maps"] 
         padding-top: 150px
     }
 
+    .header_logo .accent {
+        color: #214842
+    }
+
     .hero-pagination {
         top: 50%
     }
@@ -1036,6 +1046,10 @@ a[href^="http://maps.google.com/maps"], a[href^="https://maps.google.com/maps"] 
 @media screen and (min-width: 991.98px) {
     .hero-pagination {
         top: 50%
+    }
+
+    .header_logo .accent {
+        color: #214842
     }
 
     .hero_promo-underlay {
@@ -1073,6 +1087,10 @@ a[href^="http://maps.google.com/maps"], a[href^="https://maps.google.com/maps"] 
 @media screen and (min-width: 1199.98px) {
     .hero {
         padding-top: 310px
+    }
+
+    .header_logo .accent {
+        color: #214842
     }
 
     .hero_about {

@@ -206,7 +206,7 @@ input[type=number]::-webkit-inner-spin-button, input[type=number]::-webkit-outer
 }
 
 .accent {
-    color: #efc368
+    color: #ffc107;
 }
 
 .secondary {
@@ -495,7 +495,9 @@ a[href^="http://maps.google.com/maps"], a[href^="https://maps.google.com/maps"] 
 }
 
 .header_logo span:not(.logo) {
-    display: none
+    margin-left: 5px;
+    margin-top: 5px;
+    font-size: 35px;
 }
 
 .header_nav {
@@ -540,7 +542,7 @@ a[href^="http://maps.google.com/maps"], a[href^="https://maps.google.com/maps"] 
 }
 
 .header_nav .dropdown-toggle {
-    margin-bottom: 20px
+    margin-bottom: 20px;
 }
 
 .header_nav .dropdown-toggle .icon {
@@ -571,7 +573,7 @@ a[href^="http://maps.google.com/maps"], a[href^="https://maps.google.com/maps"] 
 
 .header_user-action {
     border-radius: 50%;
-    background: #efc368;
+    background: #f8f9fa;
     color: #214842;
     width: 40px;
     height: 40px;
@@ -862,7 +864,7 @@ a[href^="http://maps.google.com/maps"], a[href^="https://maps.google.com/maps"] 
 }
 
 .about {
-    padding: 60px 0;
+    padding: 10px 0;
 }
 
 .about_main-content_header {
@@ -908,6 +910,10 @@ a[href^="http://maps.google.com/maps"], a[href^="https://maps.google.com/maps"] 
         margin: 0 -20px
     }
 
+    .header_logo .accent {
+        color: #214842
+    }
+
     .about_numbers-group {
         max-width: unset;
         padding: 0 20px
@@ -926,7 +932,9 @@ a[href^="http://maps.google.com/maps"], a[href^="https://maps.google.com/maps"] 
     .about_main-media {
         height: 308px
     }
-
+    .header_logo .accent {
+        color: #214842
+    }
     .about_numbers-group .number {
         font-size: 40px;
         height: 40px;
@@ -937,6 +945,10 @@ a[href^="http://maps.google.com/maps"], a[href^="https://maps.google.com/maps"] 
 @media screen and (min-width: 991.98px) {
     .about_main {
         margin-bottom: 60px
+    }
+
+    .header_logo .accent {
+        color: #214842
     }
 
     .about_main-media {
@@ -955,6 +967,10 @@ a[href^="http://maps.google.com/maps"], a[href^="https://maps.google.com/maps"] 
 @media screen and (min-width: 1199.98px) {
     .about_main-media {
         margin: 0
+    }
+
+    .header_logo .accent {
+        color: #214842
     }
 
     .about_main-content, .about_main-media {
