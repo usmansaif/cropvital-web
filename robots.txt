@@ -1,7 +1,44 @@
-# Allow all search engines to crawl the site
+# --- General Rules ---
 User-agent: *
-Disallow:
+Allow: /
 
-# Sitemap location
+# --- Google / Bing / Search Engines ---
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: Slurp
+Allow: /
+
+User-agent: DuckDuckBot
+Allow: /
+
+User-agent: Baiduspider
+Allow: /
+
+# --- AI / LLM Crawlers (allow for GPT/AI SEO visibility) ---
+User-agent: Google-Extended
+Allow: /
+
+User-agent: GPTBot
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: CCBot
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: FacebookBot
+Allow: /
+
+User-agent: Applebot-Extended
+Allow: /
+
+# --- Sitemaps ---
 Sitemap: https://grainvita.com/sitemap.xml
-
