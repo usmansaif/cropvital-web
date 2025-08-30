@@ -1,102 +1,99 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset
-      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
-            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+  xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+  <!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
 
 
-<url>
-  <loc>https://grainvita.com/</loc>
-  <lastmod>2025-08-23T13:01:46+00:00</lastmod>
-  <priority>1.00</priority>
-</url>
-<url>
-  <loc>https://grainvita.com/index.html</loc>
-  <lastmod>2025-08-23T13:01:46+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://grainvita.com/about-us.html</loc>
-  <lastmod>2025-08-23T13:01:46+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://grainvita.com/core-values.html</loc>
-  <lastmod>2025-08-23T13:01:46+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://grainvita.com/contact-us.html</loc>
-  <lastmod>2025-08-23T13:01:46+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://grainvita.com/product/pumpkin-seeds.html</loc>
-  <lastmod>2025-08-23T13:01:46+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://grainvita.com/product/flax-seeds.html</loc>
-  <lastmod>2025-08-23T13:01:46+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://grainvita.com/product/chia-seeds.html</loc>
-  <lastmod>2025-08-23T13:01:46+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://grainvita.com/product/sunflower-seeds.html</loc>
-  <lastmod>2025-08-23T13:01:46+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://grainvita.com/product.html</loc>
-  <lastmod>2025-08-23T13:01:46+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://grainvita.com/privacy-policy.html</loc>
-  <lastmod>2025-08-23T13:01:46+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://grainvita.com/faqs.html</loc>
-  <lastmod>2025-08-23T13:01:46+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://grainvita.com/product/basil-seeds.html</loc>
-  <lastmod>2025-08-23T13:01:46+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://grainvita.com/product/black-seeds.html</loc>
-  <lastmod>2025-08-23T13:01:46+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://grainvita.com/product/fenugreek-seeds.html</loc>
-  <lastmod>2025-08-23T13:01:46+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://grainvita.com/product/sesame-seeds.html</loc>
-  <lastmod>2025-08-23T13:01:46+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://grainvita.com/product/watermelon-seeds.html</loc>
-  <lastmod>2025-08-23T13:01:46+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://grainvita.com/product/cardamom.html</loc>
-  <lastmod>2025-08-23T13:01:46+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-
-
+  <url>
+    <loc>https://grainvita.com/</loc>
+    <lastmod>2025-08-23T13:01:46+00:00</lastmod>
+    <priority>1.00</priority>
+  </url>
+  <url>
+    <loc>https://grainvita.com/index.html</loc>
+    <lastmod>2025-08-23T13:01:46+00:00</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://grainvita.com/about-us.html</loc>
+    <lastmod>2025-08-23T13:01:46+00:00</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://grainvita.com/core-values.html</loc>
+    <lastmod>2025-08-23T13:01:46+00:00</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://grainvita.com/contact-us.html</loc>
+    <lastmod>2025-08-23T13:01:46+00:00</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://grainvita.com/product/pumpkin-seeds.html</loc>
+    <lastmod>2025-08-23T13:01:46+00:00</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://grainvita.com/product/flax-seeds.html</loc>
+    <lastmod>2025-08-23T13:01:46+00:00</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://grainvita.com/product/chia-seeds.html</loc>
+    <lastmod>2025-08-23T13:01:46+00:00</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://grainvita.com/product/sunflower-seeds.html</loc>
+    <lastmod>2025-08-23T13:01:46+00:00</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://grainvita.com/product.html</loc>
+    <lastmod>2025-08-23T13:01:46+00:00</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://grainvita.com/privacy-policy.html</loc>
+    <lastmod>2025-08-23T13:01:46+00:00</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://grainvita.com/faqs.html</loc>
+    <lastmod>2025-08-23T13:01:46+00:00</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://grainvita.com/product/basil-seeds.html</loc>
+    <lastmod>2025-08-23T13:01:46+00:00</lastmod>
+    <priority>0.64</priority>
+  </url>
+  <url>
+    <loc>https://grainvita.com/product/black-seeds.html</loc>
+    <lastmod>2025-08-23T13:01:46+00:00</lastmod>
+    <priority>0.64</priority>
+  </url>
+  <url>
+    <loc>https://grainvita.com/product/fenugreek-seeds.html</loc>
+    <lastmod>2025-08-23T13:01:46+00:00</lastmod>
+    <priority>0.64</priority>
+  </url>
+  <url>
+    <loc>https://grainvita.com/product/sesame-seeds.html</loc>
+    <lastmod>2025-08-23T13:01:46+00:00</lastmod>
+    <priority>0.64</priority>
+  </url>
+  <url>
+    <loc>https://grainvita.com/product/watermelon-seeds.html</loc>
+    <lastmod>2025-08-23T13:01:46+00:00</lastmod>
+    <priority>0.64</priority>
+  </url>
+  <url>
+    <loc>https://grainvita.com/product/cardamom.html</loc>
+    <lastmod>2025-08-23T13:01:46+00:00</lastmod>
+    <priority>0.64</priority>
+  </url>
 </urlset>
