@@ -3133,4 +3133,207 @@ a[href^="http://maps.google.com/maps"], a[href^="https://maps.google.com/maps"] 
     width: 100%
 }
 
-/*# sourceMappingURL=../sourcemaps/index.css.map */
+
+.hero .features-list_item, .hero .features-list_row {
+    margin-bottom: 30px
+}
+
+.hero .features-list_item:last-of-type, .hero .features-list_row:last-of-type {
+    margin-bottom: 0
+}
+
+.hero .features-list_row {
+    width: 100%
+}
+
+.hero .features-list_item:hover .icon {
+    background: #258f67;
+    color: #fff
+}
+
+.hero .features-list_item .icon {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background: #fff;
+    color: #258f67;
+    -webkit-box-shadow: 0 0 15px rgba(37, 143, 103, .1);
+    box-shadow: 0 0 15px rgba(37, 143, 103, .1);
+    margin-bottom: 15px;
+    -webkit-transition: .3s ease-in-out;
+    -o-transition: .3s ease-in-out;
+    transition: .3s ease-in-out
+}
+
+.hero .features-list_item .icon svg {
+    max-width: 30px
+}
+
+@media screen and (min-width: 575.98px) {
+    .hero {
+        text-align: left
+    }
+
+    .features-list_item {
+        margin-bottom: 0 !important
+    }
+
+    .features-list_item[data-order="1"], .features-list_item[data-order="3"] {
+        margin-right: 60px
+    }
+
+    .features-list_item[data-order="2"] .wrapper, .features-list_item[data-order="4"] .wrapper {
+        -webkit-box-flex: 1;
+        -ms-flex-positive: 1;
+        flex-grow: 1
+    }
+
+    .features-list_item[data-order="3"] {
+        margin-bottom: 0
+    }
+
+    .features-list_item .icon {
+        margin-bottom: 0 !important;
+        margin-right: 20px
+    }
+
+    .features-list_item .title {
+        max-width: 200px;
+        text-align: left;
+    }
+}
+
+/** Reviews */
+.reviews_underlay {
+    position: absolute;
+    width: 470px;
+    height: 450px;
+    opacity: .7;
+    -webkit-transform: rotate(-20deg);
+    -ms-transform: rotate(-20deg);
+    transform: rotate(-20deg);
+    right: 0;
+    bottom: 0
+}
+
+.reviews_underlay-circle {
+    display: block;
+    width: 384px;
+    height: 384px;
+    -webkit-filter: blur(136px);
+    filter: blur(136px);
+    -webkit-transform: rotate(-20deg);
+    -ms-transform: rotate(-20deg);
+    transform: rotate(-20deg);
+    position: absolute
+}
+
+.reviews_underlay-circle--green {
+    background: rgba(158, 188, 166, .2);
+    top: 0;
+    right: 0
+}
+
+.reviews_underlay-circle--yellow {
+    background: rgba(239, 195, 104, .1);
+    bottom: 0;
+    left: 0
+}
+
+.reviews_header {
+    text-align: center;
+    margin-bottom: 30px
+}
+
+.reviews_header-title {
+    margin-bottom: 15px;
+    font-size: 28px;
+}
+
+.reviews_header-text {
+    max-width: 475px;
+    margin: 0 auto
+}
+
+.reviews_slider-slide {
+    padding: 15px;
+    height: auto
+}
+
+.reviews_slider-slide_wrapper {
+    height: 100%;
+    background: #fff;
+    -webkit-box-shadow: 0 0 15px rgba(37, 143, 103, .1);
+    box-shadow: 0 0 15px rgba(37, 143, 103, .1);
+    border-radius: 24px;
+    padding: 30px
+}
+
+.reviews_slider-slide_wrapper .avatar {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-bottom: 30px
+}
+
+.reviews_slider-slide_wrapper .rating {
+    line-height: 1
+}
+
+.reviews_slider-slide_wrapper .rating_star {
+    margin-right: 10px;
+    font-size: 20px
+}
+
+.reviews_slider-slide_wrapper .rating_star:last-of-type {
+    margin-right: 0
+}
+
+.reviews_slider-slide_wrapper .text {
+    margin-top: 10px;
+    text-align: center;
+    -webkit-box-flex: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+    margin-bottom: 30px
+}
+
+.avatar-initial {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    font-size: 18px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #4caf50;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+}
+
+@media screen and (min-width: 767.98px) {
+    .reviews_slider {
+        margin: -10px
+    }
+
+    .reviews_slider-slide {
+        padding: 10px;
+        height: auto
+    }
+}
+
+@media screen and (min-width: 991.98px) {
+    .reviews_header {
+        margin-bottom: 40px
+    }
+
+    .reviews_slider-slide_wrapper {
+        padding: 40px
+    }
+
+    .reviews_slider-slide_wrapper .text {
+        margin-top: 20px
+    }
+}
