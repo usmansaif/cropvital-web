@@ -1,15 +1,21 @@
 #!/bin/bash
 
-# Website URL
-SITE_URL="https://grainvita.com/"
+# Local dev site URL
+LOCAL_SITE="http://grainvita.local"
+
+# Live site URL
+LIVE_SITE="https://grainvita.com"
 
 # GitHub Repo
 GIT_REPO="https://github.com/usmansaif/grainvita-web.git"
 
-# Step 1: Mirror the site into a temp folder
+# Temp directory for mirrored site
 TEMP_DIR="./_site_tmp"
 
+# Remove previous temp folder
 rm -rf "$TEMP_DIR"
+
+# Step 1: Mirror the local site
 wget \
   --mirror \
   --convert-links \
@@ -19,26 +25,31 @@ wget \
   --domains=grainvita.local \
   --restrict-file-names=windows \
   -P "$TEMP_DIR" \
-  "$SITE_URL"
+  "$LOCAL_SITE"
 
-# Step 2: Copy mirrored content (inside grainvita.local/) into current directory
+# Step 2: Copy mirrored content into current directory
 cp -r "$TEMP_DIR"/grainvita.local/* ./
 rm -rf "$TEMP_DIR"
 
-# Step 3: Ensure .gitignore excludes this script
-echo "deploy-grainvita.sh" >> .gitignore
+# Step 3: Replace all local URLs with live site URL
+find . -type f \( -name "*.html" -o -name "*.css" -o -name "*.js" \) | while read file; do
+    sed -i "s|http://grainvita.local|$LIVE_SITE|g" "$file"
+done
 
-# Step 4: Initialize Git if needed
+# Step 4: Ensure .gitignore excludes this script
+grep -qxF "deploy-grainvita.sh" .gitignore || echo "deploy-grainvita.sh" >> .gitignore
+
+# Step 5: Initialize Git if needed
 if [ ! -d ".git" ]; then
   git init
   git remote add origin "$GIT_REPO"
 fi
 
-# Step 5: Commit and push to master branch
-git add .
-git commit -m "Update mirror site"
-git branch -M master
-git push -u origin master --force
+# Step 6: Commit and push (uncomment when ready)
+# git add .
+# git commit -m "Mirror local site and replace URLs"
+# git branch -M master
+# git push -u origin master --force
 
-echo "✅ Site mirrored (without cropvital.local folder) and pushed to GitHub (master branch): $GIT_REPO"
+echo "✅ Site mirrored from grainvita.local and URLs replaced with grainvita.com"
 
