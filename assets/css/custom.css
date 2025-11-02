@@ -585,3 +585,7 @@
 .anchor-link {
     color: #0d6efd;
 }
+
+.text-white {
+    color: #ffffff; !important;
+}
