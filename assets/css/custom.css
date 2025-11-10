@@ -589,3 +589,25 @@
 .text-white {
     color: #ffffff; !important;
 }
+.text-center {
+    text-align: center;
+}
+.blog-card {
+    border: 1px solid #e2e8f0; /* light border */
+    border-radius: 0.75rem; /* rounded corners */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    overflow: hidden;
+    padding: 20px;
+    background-color: #fff;
+}
+
+.blog-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.08);
+}
+
+.post-content p, h1, h2, h3, h4, h5, h6
+{
+    line-height: 1.8rem;
+    margin-bottom: 12px;
+}
