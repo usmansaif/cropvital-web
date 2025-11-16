@@ -72,7 +72,7 @@ async function createLinkPreview(url, container, layout = "auto", width = 380) {
 
           <!-- Product Content -->
           <div style="flex:1; padding:12px; display:flex; flex-direction:column; justify-content:space-between;">
-            <div>
+            <div style="text-align: left;">
               <a href="${url}" title="${title}" target="_blank" rel="noopener" style="text-decoration:none; color:inherit;">
                 <h4 style="margin:0 0 8px;font-size:18px;font-weight:600;color:#111;">${title}</h4>
               </a>
@@ -86,6 +86,7 @@ async function createLinkPreview(url, container, layout = "auto", width = 380) {
                 color:#0d6efd;
                 border-radius:6px;
                 padding:5px 10px;
+                text-align: left;
                 font-size:13px;
                 font-weight:500;
                 margin-bottom:14px;
@@ -97,12 +98,12 @@ async function createLinkPreview(url, container, layout = "auto", width = 380) {
                 <span style="margin-left: 5px;">Verified Brand Partner</span>
               </div>
 
-              <p style="font-size:13px;color:#888;margin-bottom:10px;">${hostname}</p>
+              <p style="font-size:13px;color:#888;margin-bottom:10px;text-align: left;">${hostname}</p>
             </div>
 
             <div style="text-align:right;">
               <a class="btn btn--green" href="${url}" target="_blank" rel="noopener"
-                 style="display:inline-block; font-size:16px; padding:10px 25px; border-radius:8px; text-decoration:none;">
+                 style="display:inline-block; font-size:16px; padding:5px 25px; border-radius:8px; text-decoration:none;">
                  Buy Now
               </a>
             </div>
