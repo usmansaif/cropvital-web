@@ -592,6 +592,13 @@
 .text-center {
     text-align: center;
 }
+
+.blog-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    align-items: stretch;
+}
 .blog-card {
     border: 1px solid #e2e8f0; /* light border */
     border-radius: 0.75rem; /* rounded corners */
