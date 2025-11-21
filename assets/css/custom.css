@@ -613,8 +613,42 @@
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.08);
 }
 
-.post-content p, h1, h2, h3, h4, h5, h6
-{
+/* Typography */
+.post-content {
     line-height: 1.8rem;
+}
+
+.post-content p,
+.post-content h1,
+.post-content h2,
+.post-content h3,
+.post-content h4,
+.post-content h5,
+.post-content h6 {
     margin-bottom: 12px;
+}
+
+/* Links */
+.post-content a {
+    color: #1a0dab;
+    transition: 0.3s ease;
+}
+
+.post-content a:hover {
+    text-decoration: underline;
+    background: rgba(42, 115, 94, 0.06);
+}
+
+/* Lists */
+.post-content ol,
+.post-content ul {
+    margin-left: 40px;
+}
+
+.post-content ol {
+    list-style-type: decimal;
+}
+
+.post-content ul {
+    list-style-type: disc;
 }
