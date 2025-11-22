@@ -1,99 +1,143 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset
-  xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-  xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-  <!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
-
-
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
     <loc>https://grainvita.com/</loc>
-    <lastmod>2025-08-23T13:01:46+00:00</lastmod>
-    <priority>1.00</priority>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://grainvita.com/index.html</loc>
-    <lastmod>2025-08-23T13:01:46+00:00</lastmod>
-    <priority>0.80</priority>
+    <loc>https://grainvita.com/about-us</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://grainvita.com/about-us.html</loc>
-    <lastmod>2025-08-23T13:01:46+00:00</lastmod>
-    <priority>0.80</priority>
+    <loc>https://grainvita.com/blog</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://grainvita.com/core-values.html</loc>
-    <lastmod>2025-08-23T13:01:46+00:00</lastmod>
-    <priority>0.80</priority>
+    <loc>https://grainvita.com/blog/chia-vs-flaxseed-which-is-better-for-you</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://grainvita.com/contact-us.html</loc>
-    <lastmod>2025-08-23T13:01:46+00:00</lastmod>
-    <priority>0.80</priority>
+    <loc>https://grainvita.com/blog/how-to-add-seeds-to-your-daily-diet</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://grainvita.com/product/pumpkin-seeds.html</loc>
-    <lastmod>2025-08-23T13:01:46+00:00</lastmod>
-    <priority>0.80</priority>
+    <loc>https://grainvita.com/blog/organic-vs-non-organic-what-is-the-real-difference</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://grainvita.com/product/flax-seeds.html</loc>
-    <lastmod>2025-08-23T13:01:46+00:00</lastmod>
-    <priority>0.80</priority>
+    <loc>https://grainvita.com/blog/seeds-for-skin-and-hair-health</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://grainvita.com/product/chia-seeds.html</loc>
-    <lastmod>2025-08-23T13:01:46+00:00</lastmod>
-    <priority>0.80</priority>
+    <loc>https://grainvita.com/blog/top-5-seeds-for-hormonal-balance</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://grainvita.com/product/sunflower-seeds.html</loc>
-    <lastmod>2025-08-23T13:01:46+00:00</lastmod>
-    <priority>0.80</priority>
+    <loc>https://grainvita.com/blog/ultimate-guide-to-healthy-seeds</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://grainvita.com/product.html</loc>
-    <lastmod>2025-08-23T13:01:46+00:00</lastmod>
-    <priority>0.80</priority>
+    <loc>https://grainvita.com/blog/watermelon-seeds-benefits-for-men-complete-guide</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://grainvita.com/privacy-policy.html</loc>
-    <lastmod>2025-08-23T13:01:46+00:00</lastmod>
-    <priority>0.80</priority>
+    <loc>https://grainvita.com/blog/winter-wellness-begins-here-top-7-dry-fruits-to-keep-you-warm-and-energized</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://grainvita.com/faqs.html</loc>
-    <lastmod>2025-08-23T13:01:46+00:00</lastmod>
-    <priority>0.80</priority>
+    <loc>https://grainvita.com/contact-us</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://grainvita.com/product/basil-seeds.html</loc>
-    <lastmod>2025-08-23T13:01:46+00:00</lastmod>
-    <priority>0.64</priority>
+    <loc>https://grainvita.com/core-values</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://grainvita.com/product/black-seeds.html</loc>
-    <lastmod>2025-08-23T13:01:46+00:00</lastmod>
-    <priority>0.64</priority>
+    <loc>https://grainvita.com/faqs</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://grainvita.com/product/fenugreek-seeds.html</loc>
-    <lastmod>2025-08-23T13:01:46+00:00</lastmod>
-    <priority>0.64</priority>
+    <loc>https://grainvita.com/privacy-policy</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://grainvita.com/product/sesame-seeds.html</loc>
-    <lastmod>2025-08-23T13:01:46+00:00</lastmod>
-    <priority>0.64</priority>
+    <loc>https://grainvita.com/product</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://grainvita.com/product/watermelon-seeds.html</loc>
-    <lastmod>2025-08-23T13:01:46+00:00</lastmod>
-    <priority>0.64</priority>
+    <loc>https://grainvita.com/product/basil-seeds</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://grainvita.com/product/cardamom.html</loc>
-    <lastmod>2025-08-23T13:01:46+00:00</lastmod>
-    <priority>0.64</priority>
+    <loc>https://grainvita.com/product/black-seeds</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://grainvita.com/product/cardamom</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://grainvita.com/product/chia-seeds</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://grainvita.com/product/desi-ghee</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://grainvita.com/product/fenugreek-seeds</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://grainvita.com/product/flax-seeds</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://grainvita.com/product/pumpkin-seeds</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://grainvita.com/product/sesame-seeds</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://grainvita.com/product/sunflower-seeds</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://grainvita.com/product/watermelon-seeds</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://grainvita.com/robots.txt</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
   </url>
 </urlset>
